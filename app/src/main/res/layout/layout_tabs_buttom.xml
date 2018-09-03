@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:antilwatch="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <succ7.com.filmbase.tab.TabViewGroup
+        android:id="@+id/tab_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3.0">
+
+        <succ7.com.filmbase.tab.TabOneView
+            android:id="@+id/tab_home_tabview"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            antilwatch:tab_src_checked="@mipmap/tab_home_checked"
+            antilwatch:tab_src_unchecked="@mipmap/tab_home_unckecked"
+            antilwatch:tab_text="@string/tab_hot"
+            antilwatch:tab_text_color_checked="@color/tab_text_chose_color"
+            antilwatch:tab_text_color_unchecked="@color/tab_text_default_color" />
+
+        <succ7.com.filmbase.tab.TabOneView
+            android:id="@+id/tab_msg_tabview"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            antilwatch:tab_src_checked="@mipmap/tab_message_checked"
+            antilwatch:tab_src_unchecked="@mipmap/tab_message_unchecked"
+            antilwatch:tab_text="@string/tab_categorize"
+            antilwatch:tab_text_color_checked="@color/tab_text_chose_color"
+            antilwatch:tab_text_color_unchecked="@color/tab_text_default_color" />
+
+        <succ7.com.filmbase.tab.TabOneView
+            android:id="@+id/tab_setting_tabview"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            antilwatch:tab_src_checked="@mipmap/tab_me_checked"
+            antilwatch:tab_src_unchecked="@mipmap/tab_me_unchecked"
+            antilwatch:tab_text="@string/tab_me"
+            antilwatch:tab_text_color_checked="@color/tab_text_chose_color"
+            antilwatch:tab_text_color_unchecked="@color/tab_text_default_color" />
+    </succ7.com.filmbase.tab.TabViewGroup>
+
+</LinearLayout>

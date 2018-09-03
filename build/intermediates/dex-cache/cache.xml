@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\DevEnvironment\AndroidStudio\ASSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b09261c8e743417a46dd08b0854570e90bed2b1e">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\AnimRefreshRecyclerView-1.0.6.aar\fd5b4b1fac285b30442d9941163c4b6d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e798941173e953806c88ea436cf45d7ee192730">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\okhttp-3.3.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\okio-1.7.0.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1dc44f4cec20a64cebb68b90b4218f82ac7948b1">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.1.0.aar\5f5320ee56d12e5afe4b1dd8465e06d2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\core-1.3.0.aar\67a472554ec2697cc51d78f78c060f4c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ccc738012da652f88d7d84c7615e3ed9355ce051">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\9272010f0e961e0cc413e39408ba2a29\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f916320e2ab151fbe277b290b999a25ba86af69b">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\mta-sdk-1.6.2.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\967bc4f23ebb6b2ebdf962905fe1a6c8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\BmobSDK_3.5.1_20160719.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a8118464e2cbf5ba630913863e9473eea365d5ca">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\47526dd87021b4c84fdc33bed1a085bc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\9147e20932fefdc4d6773d75ef1fe94d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="56b24cbd303368a3dc7a0cf1efbeb4f59b9ad742">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\open_sdk_r5756.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7f7bf100e53d9099032f113728725e1843e1fbe2">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\6.1.4\c1d30c2bbdce435b775cadca57df2098044a0f5e\analytics-6.1.4.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c1d30c2bbdce435b775cadca57df2098044a0f5e">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\PushSDK\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a908a9ecf77c0bb9ef606b0aa7a0c0dc0612eb02">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\5662541b84f828499e3b965fd483fc68\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\rxjava-1.1.6.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\rxandroid-1.2.0.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\PushSDK\libs\utdid4all-1.1.5_proguard.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a31082a6aa2f8a34b915b865b51b7217e434671a">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\universal-image-loader-1.9.3-SNAPSHOT.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="29cf65d299e133ec68caba92b29f69289713975b">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\5662541b84f828499e3b965fd483fc68\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\PushSDK\libs\com.umeng.message_v3.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ba9e68e019655887290e14fee65f4204a50f0261">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\vitamio\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="82fda2449ee2b59a252ce199fedc7d0e08794047">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.systembartint\systembartint\1.0.3\de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287\systembartint-1.0.3.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\BmobStat_v1.0_0929.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cc751e8ca06969e082168e5b572ead2456b7dc1e">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\wire-runtime-2.1.2.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0fcaa443f7b6ad5f2d9b6a68c55972a366aaac5a">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xutils-3.3.36.aar\88d57b9c2ea0eba3d2b6c96efa7e8985\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a525a7f2e266f577629f68820a462a807c66eec7">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="010e3c528152157badc4a7a5083248923d879298">
+        <dex dex="D:\Projects\ZCJWorkSpace\FilmBase\FilmBase\app\build\intermediates\transforms\preDex\SUUC7\release\12.jar" />
+    </item>
+
+</items>

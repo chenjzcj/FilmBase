@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <succ7.com.filmbase.view.TitleBarView
+        android:id="@+id/layout_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ViewStub
+            android:id="@+id/view_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <succ7.com.filmbase.view.TabLoadingProgressView
+            android:id="@+id/loading_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/errorview"
+            style="@style/text_black_mid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg"
+            android:gravity="center"
+            android:text="@string/web_load_error_try"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/title_bar_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/title_bar_shadow"
+            android:orientation="horizontal"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/base_dialog_title_bar_bg" />
+    <padding
+        android:bottom="@dimen/dialog_title_padding"
+        android:left="@dimen/dialog_title_padding"
+        android:right="@dimen/dialog_title_padding"
+        android:top="@dimen/dialog_title_padding" />
+    <corners
+        android:bottomLeftRadius="0.0dip"
+        android:bottomRightRadius="0.0dip"
+        android:topLeftRadius="@dimen/dialog_round_corner"
+        android:topRightRadius="@dimen/dialog_round_corner" />
+</shape>

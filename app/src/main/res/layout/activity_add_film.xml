@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        tools:context="succ7.com.filmbase.activity.AddFilmActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="电影封面 : "/>
+
+            <ImageView
+                android:id="@+id/iv_filmpic"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="30dp"
+                android:clickable="true"
+                android:src="@mipmap/defalut_film"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="电影名称 : "/>
+
+            <EditText
+                android:id="@+id/et_filmname"
+                style="@style/edittext_addfilm_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="电影来源 : "/>
+
+            <EditText
+                android:id="@+id/et_filmSource"
+                style="@style/edittext_addfilm_style"
+                android:editable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_baidu"
+                style="@style/text_film_source"
+                android:text="百度网盘"/>
+
+            <TextView
+                android:id="@+id/tv_360"
+                style="@style/text_film_source"
+                android:text="360云盘"/>
+
+            <TextView
+                android:id="@+id/tv_other"
+                style="@style/text_film_source"
+                android:text="其他"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="电影大小 : "/>
+
+            <EditText
+                android:id="@+id/et_filmLength"
+                style="@style/edittext_addfilm_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"/>
+
+            <TextView
+                android:id="@+id/tv_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@mipmap/down"
+                android:drawablePadding="-5dp"
+                android:text="GB"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="单位 : "
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_kb"
+                style="@style/text_film_source"
+                android:text="KB"/>
+
+            <TextView
+                android:id="@+id/tv_mb"
+                style="@style/text_film_source"
+                android:text="MB"/>
+
+            <TextView
+                android:id="@+id/tv_gb"
+                style="@style/text_film_source"
+                android:text="GB"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="@string/film_type"/>
+
+            <EditText
+                android:id="@+id/et_filmTypes"
+                style="@style/edittext_addfilm_style"
+                android:editable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_type1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_type0"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_type1"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_type2"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_type3"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_type4"
+                style="@style/text_film_tag"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_type2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_type5"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_type6"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_type7"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_type8"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_type9"
+                style="@style/text_film_tag"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="@string/film_area"/>
+
+            <EditText
+                android:id="@+id/et_filmArea"
+                style="@style/edittext_addfilm_style"
+                android:editable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_area1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_area0"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area1"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area2"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area3"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area4"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area5"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area6"
+                style="@style/text_film_tag"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_area2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_area7"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area8"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area9"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area10"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area11"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area12"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_area13"
+                style="@style/text_film_tag"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="@string/film_year"/>
+
+            <EditText
+                android:id="@+id/et_filmYear"
+                style="@style/edittext_addfilm_style"
+                android:editable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_year1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_year0"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_year1"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_year2"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_year3"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_year4"
+                style="@style/text_film_tag"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_year2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_year5"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_year6"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_year7"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_year8"
+                style="@style/text_film_tag"/>
+
+            <TextView
+                android:id="@+id/tv_year9"
+                style="@style/text_film_tag"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="@string/film_actor"/>
+
+            <EditText
+                android:id="@+id/et_filmActors"
+                style="@style/edittext_addfilm_style"
+                android:hint="多个主演用逗号隔开"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="资源地址 : "/>
+
+            <EditText
+                android:id="@+id/et_filmAddress"
+                style="@style/edittext_addfilm_style"
+                android:hint="链接等"
+                android:singleLine="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_addfilm_style"
+                android:text="其他(可选) : "/>
+
+            <EditText
+                android:id="@+id/et_other"
+                style="@style/edittext_addfilm_style"
+                android:hint="如提取码或者其他密钥类等"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_addfilm"
+            style="@style/common_button_style"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:text="@string/add_film"/>
+    </LinearLayout>
+</ScrollView>

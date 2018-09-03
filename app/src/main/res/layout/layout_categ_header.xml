@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="类型 : "
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/type0"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/type1"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/type2"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/type3"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/type4"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_type_more1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/type5"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/type6"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/type7"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/type8"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/type9"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_type_more"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/more_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="地区 : "
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/area0"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area1"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area2"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area3"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area4"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_area_more1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/area5"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area6"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area7"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area8"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area9"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_area_more2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/area10"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area11"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area12"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area13"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/area14"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_area_more"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/more_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="年代 : "
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/year0"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/year1"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/year2"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/year3"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/year4"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_year_more1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/year5"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/year6"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/year7"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/year8"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/year9"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_year_more2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/year10"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_year_more"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/more_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="演员 : "
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/actor0"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor1"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor2"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor3"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor4"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_actor_more1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/actor5"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor6"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor7"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor8"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor9"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_actor_more2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/actor10"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor11"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor12"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor13"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor14"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_actor_more3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="5">
+
+                <include
+                    android:id="@+id/actor15"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor16"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor17"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor18"
+                    layout="@layout/item_text_in_categ"/>
+
+                <include
+                    android:id="@+id/actor19"
+                    layout="@layout/item_text_in_categ"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_actor_more"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/more_horizontal"/>
+    </LinearLayout>
+
+</LinearLayout>

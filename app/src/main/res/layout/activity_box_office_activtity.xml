@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="succ7.com.filmbase.activity.BoxOfficeActivtity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/boxoffice_china"
+            style="@style/text_box_office_country"
+            android:text="@string/boxoffice_china"/>
+
+        <Button
+            android:id="@+id/boxoffice_us"
+            style="@style/text_box_office_country"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/boxoffice_us"/>
+
+        <Button
+            android:id="@+id/boxoffice_hk"
+            style="@style/text_box_office_country"
+            android:text="@string/boxoffice_hk"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_box_office_head"
+            android:layout_weight="2"
+            android:text="@string/boxoffice_rid"/>
+
+        <TextView
+            style="@style/text_box_office_head"
+            android:layout_weight="3"
+            android:text="周末票房"/>
+
+        <TextView
+            style="@style/text_box_office_head"
+            android:layout_weight="3"
+            android:text="累积票房"/>
+
+        <TextView
+            style="@style/text_box_office_head"
+            android:layout_weight="2"
+            android:text="榜单周"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_boxoffice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:divider="@color/white"
+        android:dividerHeight="2dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"/>
+
+</LinearLayout>

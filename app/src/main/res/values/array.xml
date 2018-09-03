@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="types">
+        <item>全部</item>
+        <item>喜剧</item>
+        <item>恐怖</item>
+        <item>爱情</item>
+        <item>动作</item>
+        <item>科幻</item>
+        <item>犯罪</item>
+        <item>惊悚</item>
+        <item>动画</item>
+        <item>剧情</item>
+    </array>
+    <array name="areas">
+        <item>全部</item>
+        <item>内地</item>
+        <item>美国</item>
+        <item>香港</item>
+        <item>台湾</item>
+        <item>韩国</item>
+        <item>日本</item>
+        <item>法国</item>
+        <item>英国</item>
+        <item>德国</item>
+        <item>泰国</item>
+        <item>印度</item>
+        <item>欧洲</item>
+        <item>东南亚</item>
+        <item>其他</item>
+    </array>
+    <array name="years">
+        <item>全部</item>
+        <item>"2016"</item>
+        <item>"2015"</item>
+        <item>"2014"</item>
+        <item>00年代</item>
+        <item>"2013"</item>
+        <item>"2012"</item>
+        <item>"2011"</item>
+        <item>"2010"</item>
+        <item>90年代</item>
+        <item>80年代</item>
+    </array>
+    <array name="actors">
+        <item>全部</item>
+        <item>成龙</item>
+        <item>吴亦凡</item>
+        <item>葛优</item>
+        <item>吴京</item>
+        <item>黄渤</item>
+        <item>姚晨</item>
+        <item>范冰冰</item>
+        <item>林正英</item>
+        <item>周润发</item>
+        <item>周星驰</item>
+        <item>甄子丹</item>
+        <item>古天乐</item>
+        <item>李连杰</item>
+        <item>刘德华</item>
+        <item>吴彦祖</item>
+        <item>梁朝伟</item>
+        <item>黄晓明</item>
+        <item>王宝强</item>
+        <item>陈小春</item>
+    </array>
+</resources>

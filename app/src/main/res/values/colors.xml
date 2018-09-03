@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg">#fff4f4f9</color>
+    <color name="text_grey">#ff333333</color>
+    <color name="titlebar_divider_color">#ff0f9ba8</color>
+    <color name="title_bar_text_color">#ffffffff</color>
+    <color name="border_gray">#ffe8e8e8</color>
+    <color name="button_titlebar_bg_default">#00000000</color>
+    <color name="list_divider_color">#DADADA</color>
+    <color name="ui_dialog_divider">@color/list_divider_color</color>
+    <color name="text_dark">#af000000</color>
+    <color name="lightest_gray">#0a000000</color>
+    <color name="bg_touch">@color/lightest_gray</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ui_dialog_list_text">#5E5E5E</color>
+    <color name="null_color">#00ffffff</color>
+    <color name="base_dialog_button_line">#ffd7d9de</color>
+    <color name="base_dialog_button_bg_default_pressed">#ffdbdbdb</color>
+    <color name="base_dialog_button_bg_default_disable">#fff8f8f8</color>
+    <color name="base_dialog_button_bg_default_normal">#ffffffff</color>
+    <color name="base_dialog_button_text_default_pressed">#ff000000</color>
+    <color name="base_dialog_button_text_default_normal">#ff333333</color>
+    <color name="base_dialog_content_bg">#ffffffff</color>
+    <color name="base_dialog_title_bar_bg">#ffffffff</color>
+    <color name="base_dialog_title_text">#ff03a9f4</color>
+    <color name="base_dialog_button_bar_bg">#fff5f5f5</color>
+    <color name="base_dialog_content_text">#ff333333</color>
+    <color name="text_light">#3f000000</color>
+    <color name="light_gray">#1a000000</color>
+    <color name="main_black">#353535</color>
+    <color name="red">#FF0000</color>
+    <color name="tab_text_chose_color">#0083FF</color>
+    <color name="tab_text_default_color">#5c5c5c</color>
+    <color name="gray">#ece6e6</color>
+    <color name="setting_item_line">#ffdbdbdb</color>
+    <color name="green">#00ff00</color>
+
+</resources>
