@@ -63,6 +63,6 @@ public class PicassoUtils {
      * @param imageView ImageView
      */
     public static void cancelRequest(Context context, ImageView imageView) {
-        Picasso.with(context).cancelRequest(imageView);
+        Picasso.get().cancelRequest(imageView);
     }
 }

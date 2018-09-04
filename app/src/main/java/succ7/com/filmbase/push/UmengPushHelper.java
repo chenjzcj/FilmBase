@@ -1,21 +1,6 @@
 package succ7.com.filmbase.push;
 
 import android.content.Context;
-import android.os.Handler;
-
-import com.umeng.message.IUmengRegisterCallback;
-import com.umeng.message.PushAgent;
-import com.umeng.message.UmengMessageHandler;
-import com.umeng.message.entity.UMessage;
-
-import org.xutils.common.Callback;
-import org.xutils.http.RequestParams;
-import org.xutils.x;
-
-import java.io.File;
-
-import succ7.com.filmbase.utils.ApkUtils;
-import succ7.com.filmbase.utils.LogUtils;
 
 
 /**
@@ -31,7 +16,7 @@ public class UmengPushHelper {
      * @param context 上下文
      */
     public static void register(final Context context) {
-        PushAgent mPushAgent = PushAgent.getInstance(context);
+        /*PushAgent mPushAgent = PushAgent.getInstance(context);
         dealWithCustomMessage(mPushAgent);
         //注册推送服务，每次调用register方法都会回调该接口
         mPushAgent.register(new IUmengRegisterCallback() {
@@ -46,7 +31,7 @@ public class UmengPushHelper {
             public void onFailure(String s, String s1) {
                 LogUtils.i("onFailure = " + s + s1);
             }
-        });
+        });*/
 
     }
 
@@ -55,11 +40,11 @@ public class UmengPushHelper {
      *
      * @param mPushAgent PushAgent
      */
-    public static void dealWithCustomMessage(PushAgent mPushAgent) {
+    /*public static void dealWithCustomMessage(PushAgent mPushAgent) {
         UmengMessageHandler messageHandler = new UmengMessageHandler() {
-            /**
+            *//**
              * 自定义消息的回调方法
-             * */
+             * *//*
             @Override
             public void dealWithCustomMessage(final Context context, final UMessage msg) {
                 new Handler().post(new Runnable() {
@@ -110,7 +95,7 @@ public class UmengPushHelper {
 
         };
         mPushAgent.setMessageHandler(messageHandler);
-    }
+    }*/
 
     /**
      * 统计应用启动数据
@@ -119,7 +104,7 @@ public class UmengPushHelper {
      * @param context 上下文
      */
     public static void onAppStart(Context context) {
-        PushAgent.getInstance(context).onAppStart();
+        /*PushAgent.getInstance(context).onAppStart();*/
     }
 
 }

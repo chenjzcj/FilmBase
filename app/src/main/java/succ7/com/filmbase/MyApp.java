@@ -39,7 +39,7 @@ public class MyApp extends BaseApplication {
         //捕获未处理异常
         CrashHandler crashHandler = CrashHandler.getInstance();
         crashHandler.init(this);
-        registerSMSObserver();
+        //registerSMSObserver();
         BmobHelper.init(this);
         RealTimeHelper.start();
         ShareUtils.init();
@@ -116,7 +116,9 @@ public class MyApp extends BaseApplication {
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace(System.err);
         }
-        if (info == null) info = new PackageInfo();
+        if (info == null) {
+            info = new PackageInfo();
+        }
         return info;
     }
 
