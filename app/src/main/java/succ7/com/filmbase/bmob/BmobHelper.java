@@ -52,7 +52,7 @@ public class BmobHelper {
     /**
      * 应用appId
      */
-    private static final String appId = "b98522cb5cecb387293166ffd7876fa2";
+    private static final String APP_ID = "b98522cb5cecb387293166ffd7876fa2";
 
     /**
      * bmob初始化
@@ -60,7 +60,7 @@ public class BmobHelper {
      * @param context 上下文
      */
     public static void init(Context context) {
-        Bmob.initialize(context, appId);
+        Bmob.initialize(context, APP_ID);
     }
 
     /**
@@ -127,6 +127,7 @@ public class BmobHelper {
             case Constants.REQUEST_TYPE_FEEDBACK:
                 addFeedback(context, (String) data[0], (String) data[1]);
                 break;
+            default:
         }
     }
 
