@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sch.rfview:AnimRefreshRecyclerView-1.0.6">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AnimRefreshRecyclerView-1.0.6.aar/83101e55dd1080d1518c2007a279706e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AnimRefreshRecyclerView-1.0.6.aar/83101e55dd1080d1518c2007a279706e/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sch.rfview/AnimRefreshRecyclerView/1.0.6/3f31cfedbea0b99c611cd9f6228f9c4f67462ac8/AnimRefreshRecyclerView-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
